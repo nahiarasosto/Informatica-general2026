@@ -1,0 +1,60 @@
+/* --- ARCANE: Piltover & Zaun Style --- */
+
+body {
+    background-color: #0a0b10; /* Un negro azulado más profundo y cinemático */
+    background-image: radial-gradient(circle at center, #1a1e2e 0%, #050508 100%);
+    font-family: 'Georgia', serif; /* Cambiamos a serif para darle ese toque steampunk/victoriano */
+    color: #a0a8b3;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Titulos con estética Hextech */
+h1 {
+    color: #e5c28b; /* Oro envejecido de Piltover */
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #5294e2; /* El brillo azul del cristal Hextech */
+    text-shadow: 0 0 15px rgba(82, 148, 226, 0.6);
+    background: transparent; /* Eliminamos el fondo blocky anterior */
+    margin-bottom: 50px;
+}
+
+h2, h3, h4 {
+    color: #8327ff; /* El violeta vibrante del Shimmer */
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: left; /* Alineación asimétrica más dinámica */
+    font-size: 40px;
+    border-left: 5px solid #8327ff;
+    padding-left: 20px;
+    text-shadow: 2px 2px 0px #1a0533;
+}
+
+/* Listas que parecen grafitis de Jinx o documentos de laboratorio */
+ul {
+    background-color: rgba(20, 25, 35, 0.8);
+    border: 1px solid #333;
+    padding: 30px;
+    list-style-type: square;
+    color: #00ffcc; /* Cian radioactivo */
+    box-shadow: -10px 10px 0px rgba(131, 39, 255, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+li {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Un pequeño detalle para los párrafos o texto general */
+p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    opacity: 0.9;
+}
+/*Declaración de uso de la IA: en este trabajo se utilizó la IA para la generación de el código CSS.*/
