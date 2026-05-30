@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    font-size: 5rem;
+    color: blue;
+    font-style: oblique;
+    background-color: darkorchid;
+    text-decoration: underline;
+};
+
+main {
+    text-decoration: dashed;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(76, 43, 226);
+    background-color: cornflowerblue;
+};
