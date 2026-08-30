@@ -1,0 +1,36 @@
+/*Titulos*/
+h1 {background-color: rgba(61, 23, 235, 0.37); 
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 55px;
+    color: cornflowerblue;
+    text-decoration: double;
+}
+h2 {text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 55px;
+    color: rgba(183, 203, 240, 0.432);
+    text-decoration: double;}
+h3 {text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 55px;
+    color: rgba(183, 203, 240, 0.432);
+    text-decoration: double;
+}
+h4 {text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 55px;
+    color: rgba(183, 203, 240, 0.432);
+    text-decoration: double;}
+/*Cuerpo*/
+body {background-color: rgb(13, 11, 17);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-weight: lighter;
+color: rgba(183, 203, 240, 0.432);
+}
+/*Listas*/
+ul {background-color: rgba(61, 23, 235, 0.37);
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgba(147, 147, 253, 0.795);}
