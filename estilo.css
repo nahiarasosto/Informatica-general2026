@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+body{
+    padding: 5%;
+    background-color: #e0b4fd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #100729;
+    margin: 60%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div {
+    background-color: #a176f0;
+    text-align: center;
+}
+
+div h1 {
+    font-size: 1rem;
+}
+
+div ol {
+    list-style: none;
+}
+
+div ol li:hover {
+    background-color: #df65fd;
+    color: #36123f;
+}
