@@ -12,7 +12,7 @@ body{
 
 #contenedor{
     width: 100%;
-    max-width: 1000px;
+    max-width: fit-content;
     margin: 1rem;
     background-color: #e7c9ff;
     overflow: hidden;

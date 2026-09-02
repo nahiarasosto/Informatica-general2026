@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Día de compras</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>Administración de pedidos de clientes</h1>
+            <p>Ingresa nombre y monto total de compra por cliente</p>
+        </header>
+        <main>
+            <div id="contenedor">
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Datos de compra</legend>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre del cliente">
+                        <br>
+                        <input type="number" name="montoTotal" id="montoTotal" placeholder="Monto total de la compra">
+                        <br>
+                         <button type="button" name="enviar" id="enviar">Enviar</button>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Calcular la cantidad total de clientes y el promedio de compra por cliente</legend>
+                        <button type="button" name="calculo" id="calculo">Resultados</button>
+                        <div id="resultados">
+
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Identificar al cliente que más gastó y aplicarle un descuento (más de $50.000 = 30%, menos de $50.000 = 15%.)</legend>
+                        <button type="button" name="calculo1" id="calculo1">Resultados</button>
+                        <div id="resultados1">
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    <script src="js/script.js"></script>
+    </body>
+</html>
